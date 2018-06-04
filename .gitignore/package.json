@@ -1,0 +1,17 @@
+{
+  "name": "frtrivia",
+  "version": "0.0.1",
+  "description": "FRTrivia bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  },
+  "engines": {
+    "node": "8.11.2"
+  }],
+  "author": "Everywhere",
+  "license": "FRT"
+}
