@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
-const Apk = require('./commandes/apk')
+const Apk = require('./commandes/apk').default
 
 bot.on('ready', function () {
   console.log("Connecté !")
@@ -13,7 +13,6 @@ bot.on('ready', function () {
 })
 
 bot.on('message', function (message) {
-  if (Apk.match(message)) {
-    return Apk.action(message)
+  Apk.parse(message)
   }
-})
+)
