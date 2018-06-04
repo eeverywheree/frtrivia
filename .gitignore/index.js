@@ -14,5 +14,4 @@ bot.on('ready', function () {
 
 bot.on('message', function (message) {
   Apk.parse(message)
-  }
-)
+})
