@@ -14,6 +14,6 @@ bot.on('ready', function () {
 
 bot.on('message', function (message) {
   if (Apk.match(message)) {
-    return Google.action (message)
+    return Apk.action(message)
   }
 })
