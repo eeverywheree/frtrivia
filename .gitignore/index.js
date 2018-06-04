@@ -13,5 +13,7 @@ bot.on('ready', function () {
 })
 
 bot.on('message', function (message) {
-  Apk.parse(message)
+  if (Apk.match(message)) {
+    return Apk.action (message)
+  }
 })
