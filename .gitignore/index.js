@@ -8,7 +8,7 @@ bot.on('ready', function () {
 bot.login(process.env.TOKEN)
 
 bot.on('ready', function () {
-  bot.user.setActivity('Cash Show', { type: 'WATCHING' })
+  bot.user.setActivity('Cash Show', { type: 'PLAYING' })
 })
 
 bot.on('message', function (message) {
