@@ -11,7 +11,7 @@
   },
   "engines": {
     "node": "8.11.2"
-  }],
+  },
   "author": "Everywhere",
   "license": "FRT"
 }
