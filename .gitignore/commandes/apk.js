@@ -1,6 +1,4 @@
-const Commande = require('./commande')
-
-module.exports = class Apk extends Commande {
+module.exports = class Apk {
 
 
     static match(message) {
